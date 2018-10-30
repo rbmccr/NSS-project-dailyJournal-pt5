@@ -1,0 +1,32 @@
+{
+  "journalEntries": [
+    {
+      "id": 1,
+      "date": "07/24/2018",
+      "concept": "Array methods",
+      "entry": "We learned about 4 different array methods today. forEach made sense, but the others still confuse me.",
+      "mood": "Neutral"
+    },
+    {
+      "id": 2,
+      "date": "10/15/2018",
+      "concept": "Lab day",
+      "entry": "We finished discussing appending to the DOM. I worked on exercises after that.",
+      "mood": "Fantastic"
+    },
+    {
+      "id": 3,
+      "date": "10/16/2018",
+      "concept": "Daily Journal pt 2",
+      "entry": "We finished discussing functions. Now I'm working on the daily journal again",
+      "mood": "Good"
+    },
+    {
+      "date": "2018-10-30",
+      "concept": "More array methods",
+      "entry": "map(), filter(), and sort()",
+      "mood": "Good",
+      "id": 4
+    }
+  ]
+}
