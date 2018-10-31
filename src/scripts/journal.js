@@ -10,6 +10,7 @@ API.getJournalEntries().then(entries => renderJournalEntries(entries));
 let form = document.getElementById("entry-form");
 let formButton = document.querySelector("button");
 let conceptLabel = document.getElementById("label--concepts");
+let entryLabel = document.querySelector("#entry");
 let dateInput = document.getElementById("journalDate");
 let conceptInput = document.getElementById("concepts");
 let entryInput = document.getElementById("entry");
