@@ -6,42 +6,48 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Daily Journal</title>
   <link rel="stylesheet" type="text/css" media="screen" href="styles/journal.css">
+  <link rel="stylesheet" href="styles/layout.css">
 </head>
 <body>
-  <nav>More buttons here</nav>
-  <header class="header">
-    <h1>Daily Journal</h1>
-  </header>
-  <form action="" class="entry--form">
-    <fieldset>
-      <label for="journal">Date of entry</label>
-      <input type="date" name="journal" id="journalDate">
-    </fieldset>
-    <fieldset>
-      <label for="concepts">Concepts covered</label>
-      <input type="text" name="concepts" id="concepts">
-    </fieldset>
-    <fieldset>
-      <label for="entry">Journal Entry</label>
-      <textarea name="entry" id="entry"></textarea>
-    </fieldset>
-    <fieldset>
-      <label for="mood">Mood today</label>
-      <select name="mood" id="mood">
-        <option>Fantastic</option>
-        <option>Good</option>
-        <option>Neutral</option>
-        <option>Poor</option>
-        <option>Murphy Monday</option>
-      </select>
-    </fieldset>
-  </form>
-  <button class="post">Record Journal Entry</button>
-  <article class="entryLog"></article>
+  <nav></nav>
+  <div class="master">
+    <header class="header">
+      <h1>Daily Journal</h1>
+    </header>
+    <form action="" class="entry--form">
+      <fieldset>
+        <label for="journal">Date of entry</label>
+        <input type="date" name="journal" id="journalDate">
+      </fieldset>
+      <fieldset>
+        <label for="concepts" id="label--concepts">Concepts covered</label>
+        <input type="text" name="concepts" id="concepts">
+      </fieldset>
+      <fieldset>
+        <label for="entry">Journal Entry</label>
+        <textarea name="entry" id="entry"></textarea>
+      </fieldset>
+      <fieldset>
+        <label for="mood">Mood today</label>
+        <select name="mood" id="mood">
+          <option>Fantastic</option>
+          <option>Good</option>
+          <option>Neutral</option>
+          <option>Poor</option>
+          <option>Murphy Monday</option>
+        </select>
+      </fieldset>
+    </form>
+    <div class="button-container">
+      <button class="post">Record Journal Entry</button>
+    </div>
+    <article class="entryLog"></article>
+  </div>
 
   <script src="scripts/data.js"></script>
   <script src="scripts/entryComponent.js"></script>
   <script src="scripts/entriesDOM.js"></script>
   <script src="scripts/journal.js"></script>
+  <script src="scripts/form-validation.js"></script>
 </body>
 </html> 
