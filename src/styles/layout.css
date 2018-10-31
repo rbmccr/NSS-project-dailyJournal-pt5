@@ -21,9 +21,22 @@ nav {
   padding: 25px;
 }
 
-.button-container {
+#form--container {
+  height: 250px;
+  width: 500px;
+  margin: 10px auto 0 auto;
+}
+
+#button--container {
+  height: 39px;
   display: flex;
   justify-content: center;
   align-content: center;
   margin: 20px 0 0 0;
+}
+
+.entryLog {
+  width: 500px;
+  padding: 10px;
+  margin: 0 auto 10px auto;
 }

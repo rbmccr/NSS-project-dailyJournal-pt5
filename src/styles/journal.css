@@ -16,6 +16,7 @@ nav {
   padding: 5px;
   border: 1px solid black;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 form[class="entry--form"] fieldset {
@@ -26,8 +27,6 @@ form[class="entry--form"] fieldset {
 }
 
 .entry--form {
-  width: 500px;
-  margin: 5px auto;
   border: 1px solid black;
   border-radius: 5px;
 }
@@ -37,8 +36,7 @@ form[class="entry--form"] fieldset {
 }
 
 .entry--posted {
-  width: 500px;
-  margin: 20px auto;
+  margin: 20px 0;
   padding: 5px;
   border: 1px solid black;
   border-radius: 5px;

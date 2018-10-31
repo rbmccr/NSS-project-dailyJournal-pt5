@@ -34,6 +34,13 @@
       "entry": "test",
       "mood": "Good",
       "id": 5
+    },
+    {
+      "date": "2018-10-31",
+      "concept": "Daily Journal Part 5",
+      "entry": "I finished Daily Journal Part 5.",
+      "mood": "Fantastic",
+      "id": 6
     }
   ]
 }
